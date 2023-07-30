@@ -26,8 +26,6 @@
 
 <script setup>
 const route = useRoute()
-// const id = route.params.id
-console.log(route.path)
 const props = defineProps({
   article: {
     type: Object,

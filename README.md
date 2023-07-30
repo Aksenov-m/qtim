@@ -1,63 +1,21 @@
-# Nuxt 3 Minimal Starter
+# QTIM
+---
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Описание: 
+Тестовое задание для компании QTIM. Веб-приложение с выводом постов. .
+Приложение написано на популярном SSR NUXT 3.
+### Технологический стек
+* :point_right: NUXT 3
+* :point_right: VueJs
+* :point_right: HTML
+* :point_right: CSS
+##### версия языка: :ru:
+---
 
-## Setup
+## Запуск проекта
 
-Make sure to install the dependencies:
+`npm install` — установит зависимости.
+`npm run dev` — запускает приложенияв режиме разработки.
+Откройте http://localhost:3000/articles, чтобы просмотреть его в браузере. 
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+`npm run build` — сборка приложения. Создает приложение для производства в .output папку. 
